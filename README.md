@@ -1,5 +1,6 @@
 # 🛒 ALX Project Nexus — Scalable E-Commerce API
 
+<<<<<<< HEAD
 <div align="center">
 
 [![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://python.org)
@@ -10,6 +11,22 @@
 [![Coverage](https://img.shields.io/badge/coverage-95%25-brightgreen.svg)](https://codecov.io)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![Release](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/soufyane73/alx-project-nexus/releases)
+=======
+
+
+<div align="center">
+
+
+
+[![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://python.org)
+[![Django](https://img.shields.io/badge/django-4.0%2B-success.svg)](https://djangoproject.com)
+[![Docker](https://img.shields.io/badge/docker-ready-2496ED.svg)](https://docker.com)
+![Postman Tests](https://github.com/Marcos-MEDENOU/alx-project-nexus/workflows/Postman%20API%20Tests/badge.svg)
+[![Build](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/Marcos-MEDENOU/alx-project-nexus/actions)
+[![Coverage](https://img.shields.io/badge/coverage-95%25-brightgreen.svg)](https://codecov.io)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![Release](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/Marcos-MEDENOU/alx-project-nexus/releases)
+>>>>>>> ad5bf40 (first commit)
 
 **A modern, cloud-ready backend API for e-commerce — built with Django REST Framework.**
 
@@ -33,10 +50,14 @@ From product listings to checkout, this API is designed for both **rapid prototy
 
 ## 🎯 Project Objective
 
+<<<<<<< HEAD
 The ALX Project Nexus serves as a documentation hub for major learnings from the ProDev Backend Engineering program.  
 This repository showcases my understanding of backend engineering concepts, tools, and best practices.  
 
 Author: **Soufyane**
+=======
+The ALX Project Nexus serves as a documentation hub for major learnings from the ProDev Backend Engineering program. This repository showcases understanding of backend engineering concepts, tools, and best practices.
+>>>>>>> ad5bf40 (first commit)
 
 ---
 
@@ -60,6 +81,7 @@ Author: **Soufyane**
 ## 📚 Major Learnings
 
 ### Key Technologies Covered
+<<<<<<< HEAD
 - **Python**: Core language for backend development.  
 - **Django**: Web framework for building robust applications.  
 - **REST APIs & GraphQL**: API design and implementation.  
@@ -76,6 +98,24 @@ Author: **Soufyane**
 
 ### Best Practices and Personal Takeaways
 - [Add your backend best practices & personal learnings here]  
+=======
+- **Python**: Core language for backend development.
+- **Django**: Web framework for building robust applications.
+- **REST APIs & GraphQL**: API design and implementation.
+- **Docker**: Containerization for consistent development and deployment.
+- **CI/CD**: Continuous Integration and Deployment pipelines.
+
+### Important Backend Development Concepts
+- **Database Design**: Structuring data for scalability and efficiency.
+- **Asynchronous Programming**: Enhancing performance with async operations.
+- **Caching Strategies**: Improving performance with caching mechanisms.
+
+### Challenges Faced and Solutions Implemented
+- [Briefly describe specific challenges and how you overcame them]
+
+### Best Practices and Personal Takeaways
+- [List best practices learned and personal insights]
+>>>>>>> ad5bf40 (first commit)
 
 ---
 
@@ -85,6 +125,7 @@ If you have **Docker** and **Docker Compose** installed, you can run the API in 
 
 ```bash
 # Step 1: Clone the Repository
+<<<<<<< HEAD
 git clone https://github.com/soufyane73/alx-project-nexus.git
 cd alx-project-nexus
 
@@ -104,3 +145,53 @@ python manage.py migrate
 
 # Step 6: Collect Static Files
 python manage.py collectstat
+=======
+# This command will copy the project repository from GitHub to your local machine.
+git clone https://github.com/Marcos-MEDENOU/alx-project-nexus.git
+cd alx-project-nexus
+
+# Step 2: Set Up Virtual Environment
+# Create a virtual environment to isolate the project's dependencies.
+python -m venv venv
+# Activate the virtual environment. Use the appropriate command for your OS.
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
+# Step 3: Install Dependencies
+# Install all the necessary packages specified in the requirements.txt file.
+pip install -r requirements.txt
+
+# Step 4: Configure Environment Variables
+# Copy the example environment file to .env and edit it with your configuration.
+cp .env.example .env
+# Open .env in a text editor and set the necessary environment variables.
+
+# Step 5: Run Migrations
+# Apply database migrations to set up your database schema.
+python manage.py migrate
+
+# Step 6: Collect Static Files
+# Collect all static files into the STATIC_ROOT directory.
+python manage.py collectstatic --noinput
+
+# Step 7: Create Superuser
+# Create an admin account to access the Django admin interface.
+python manage.py createsuperuser
+
+# Step 8: Start the Development Server
+# Run the Django development server to start the application.
+python manage.py runserver
+
+# Access the application at http://localhost:8000
+# Access the admin interface at http://localhost:8000/admin
+# Access the API documentation at http://localhost:8000/swagger/
+```
+
+
+## 🤝 Contributing
+
+We welcome contributions! Please see our [Contributing Guide](wiki/contributing.md) for more details on how to get started, our code style, and the process for submitting pull requests.
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+>>>>>>> ad5bf40 (first commit)
