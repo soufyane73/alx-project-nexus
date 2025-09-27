@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🛒 ALX Project Nexus — Scalable E-Commerce API
 
 
@@ -134,3 +135,6 @@ We welcome contributions! Please see our [Contributing Guide](wiki/contributing.
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+=======
+# alx-project-nexus
+>>>>>>> 83036f3505fc10c15e6d3749a602f4fceb920c97
